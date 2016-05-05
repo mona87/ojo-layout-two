@@ -1,0 +1,160 @@
+ @font-face {
+  font-family: 'Sophia';
+  font-weight: normal;
+ /* src: url('../fonts/klavika/Klavika-Regular.otf'); */
+  src: url('../fonts/sofia-pro-soft-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sofia-pro-soft-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sofia-pro-soft-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/sofia-pro-soft-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sofia-pro-soft-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sofia-pro-soft-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Sophia';
+  font-weight: lighter;
+ /* src: url('../fonts/klavika/Klavika-Regular.otf'); */
+  src: url('../fonts/sofiaprosoftlight-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sofiaprosoftlight-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sofiaprosoftlight-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/sofiaprosoftlight-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sofiaprosoftlight-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sofiaprosoftlight-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Sophia';
+  font-weight: bold;
+ /* src: url('../fonts/klavika/Klavika-Regular.otf'); */
+  src: url('../fonts/sofia-pro-soft-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sofia-pro-soft-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sofia-pro-soft-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/sofia-pro-soft-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sofia-pro-soft-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sofia-pro-soft-bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+    background-color: #2F042B;
+    font-family: 'Sophia';
+    font-weight: normal;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+.container-fluid{
+       padding-left: 20px;
+       padding-right: 20px;
+}
+
+.ojo-logo{
+    background: url('../images/desktop/desktop_ojo.me_logo_@2x.png') no-repeat;   
+    width: 150px;
+    height: 100px;
+    background-size: contain;
+    margin-top: 30px;
+ 
+
+}
+
+.main-title{
+       background-image: url('../images/desktop/desktop_beta_text_@2x.svg');
+       height: 120px;
+       width: 600px;
+       background-size: contain;
+       background-repeat: no-repeat;
+       margin: auto;
+}
+
+.section-one-text{
+       color: white;
+       font-size: 25px;
+       max-width: 580px;
+       margin: auto;
+       text-align: center;
+       margin-top: 50px;
+       line-height: 40px;
+}
+
+.phone-number{
+       color: #FF495C;
+       font-size: 60px;
+       margin: auto;
+       text-align: center;
+       margin-top: 40px;
+       font-weight: bold;
+}
+
+.characters{
+       color: white;
+}
+
+.section-two-text{
+       color: white;
+       font-weight: lighter;
+       font-size: 20px;
+       max-width:400px;
+       margin: auto;
+       text-align: center;
+       margin-top: 25px;
+
+}
+
+.spacer{
+       margin-right: 5px;
+}
+
+.section-three-text{
+       color: white;
+       font-size: 18px;
+       margin: auto;
+       margin-top: 50px;
+       margin-bottom: 100px;
+       text-align: center;
+
+}
+
+/*for tablet*/
+@media  (min-width: 768px) and (max-width: 992px){
+
+       .main-title{
+              margin-top: 100px;
+       }
+       .section-one-text {           
+              font-size: 27px;
+              max-width: 600px;
+        }
+       .section-two-text{
+
+              font-size: 27px;
+               max-width: 420px;
+       }
+       .section-three-text{
+              font-size: 22px;
+       }
+}
+
+/*for mobile*/
+@media (max-width: 767px) {
+       .main-title{
+              width: 280px;
+              height: 50px;
+       }
+       .phone-number{
+              font-size: 40px;
+
+       }
+       .section-one-text{
+              line-height: inherit;
+              font-size: 20px;
+       }
+       .ojo-logo{
+              background-image: url('../images/mobile/mobile_ojo.me_logo_@2x.png') no-repeat; 
+              width: 100px;
+              height: 50px;
+              margin-bottom: 40px;
+       }
+       .section-three-text{
+              font-size: 15px;
+
+       }
+
+
+}
