@@ -82,6 +82,11 @@ body {
        font-weight: bold;
 }
 
+a:link, a:visited, a:active{
+    text-decoration: none;
+   color: #FF495C;
+}
+
 .characters{
        color: white;
 }
