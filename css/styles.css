@@ -55,7 +55,7 @@ body {
 }
 
 .main-title{
-       background-image: url('../images/desktop/desktop_beta_text_@2x.svg');
+       background-image: url('../images/Desktop/desktop_beta_text_@2x.svg');
        height: 120px;
        width: 600px;
        background-size: contain;
@@ -146,7 +146,7 @@ body {
               font-size: 20px;
        }
        .ojo-logo{
-              background-image: url('../images/mobile/mobile_ojo.me_logo_@2x.png') no-repeat; 
+              background-image: url('../images/Mobile/mobile_ojo.me_logo_@2x.png') no-repeat; 
               width: 100px;
               height: 50px;
               margin-bottom: 40px;
